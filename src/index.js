@@ -89,4 +89,5 @@ const navLinks = (document.querySelectorAll('header nav a'))
 const navLinkText = Object.values(siteContent.nav)
 navLinks.forEach((link, idx) => {
   link.textContent = navLinkText[idx]
+  link.classList.add('italic')
 })
