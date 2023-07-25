@@ -79,3 +79,14 @@ const pBottom = bottomContent.querySelectorAll('p')
 pBottom[0].textContent = siteContent['main-content']['services-content']
 pBottom[1].textContent = siteContent['main-content']['product-content']
 pBottom[2].textContent = siteContent['main-content']['vision-content']
+
+//CALL TO ACTION
+document.querySelector('.cta .cta-text h1').textContent = siteContent.cta.h1
+document.querySelector('.cta .cta-text button').textContent = siteContent.cta.button
+
+//NAV LINKS 
+const navLinks = (document.querySelectorAll('header nav a'))
+const navLinkText = Object.values(siteContent.nav)
+navLinks.forEach((link, idx) => {
+  link.textContent = navLinkText[idx]
+})
