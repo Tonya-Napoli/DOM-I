@@ -8,7 +8,7 @@ const siteContent = { // DO NOT CHANGE THIS OBJECT
     "nav-item-6": "Contact",
   },
   "cta": {
-    "h1": "DOM Is Awesome",
+    "h1": "DOM Is Awesome!",
     "button": "Get Started",
   },
   "main-content": {
